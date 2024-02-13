@@ -15,13 +15,13 @@ Ensure all the necessary packages listed in `requirements.txt` are installed.
 To conduct BMCL experiments, please execute the command below. Note that you should adjust the paths and hyperparameters according to your specific requirements:
 
 ```bash
-python main.py --max_epoch 1000 --batch_size 64 --sample_size 164 --target mmse --dataset HCP --graph_data_dir './data/graphs' --label_path './data/labels.csv' --seq_data_dir './data/sequences' --hidden_dim 512 --hidden_layers 2 --merge_layers 2 --num_heads 4 --lr 1e-4 --factor 0.5 --patience 20 --recon False
+python main.py --max_epoch 1000 --batch_size 64 --sample_size 1200 --target gender --dataset HCP --graph_data_dir './data/graphs' --label_path './data/labels.csv' --seq_data_dir './data/sequences' --hidden_dim 512 --hidden_layers 2 --merge_layers 2 --num_heads 4 --lr 1e-4 --factor 0.5 --patience 20 --recon False
 ```
 
 To perform BMCL experiments with five-fold cross-validation, please execute the command below. Note that you should adjust the paths and hyperparameters according to your specific requirements:
 
 ```bash
-python main_five_fold.py --max_epoch 1000 --batch_size 64 --sample_size 164 --target mmse --dataset HCP --graph_data_dir './data/graphs' --label_path './data/labels.csv' --seq_data_dir './data/sequences' --hidden_dim 512 --hidden_layers 2 --merge_layers 2 --num_heads 4 --lr 1e-4 --factor 0.5 --patience 20 --recon False
+python main_five_fold.py --max_epoch 1000 --batch_size 64 --sample_size 1200 --target gender --dataset HCP --graph_data_dir './data/graphs' --label_path './data/labels.csv' --seq_data_dir './data/sequences' --hidden_dim 512 --hidden_layers 2 --merge_layers 2 --num_heads 4 --lr 1e-4 --factor 0.5 --patience 20 --recon False
 ```
 
 ## Citing This Work
