@@ -82,7 +82,7 @@ class BMCL(pl.LightningModule):
 
         batch_size, num_ROIs, feature_dim = _seq.shape
 
-        negatives = generate_within_brain_negatives(seq)
+        negatives = generate_within_brain_negatives(_adj)
 
         query = _seq.view(-1, feature_dim)
         positive_key = _adj.view(-1, feature_dim)
