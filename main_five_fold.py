@@ -13,7 +13,7 @@ import os
 
 def main():
 
-    parser = argparse.ArgumentParser(description="BMCL experiments")
+    parser = argparse.ArgumentParser(description="BMCL experiments with five fold cross validation")
     parser.add_argument('--max_epoch', type=int, default=100)  
     parser.add_argument('--batch_size', type=int, default=32)  
 
