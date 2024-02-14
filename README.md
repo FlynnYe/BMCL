@@ -6,7 +6,7 @@ This repository contains the source code associated with our paper titled "Bidir
 
 The HCP dataset can be accessed at [here](https://www.humanconnectome.org/study/hcp-young-adult/data-releases). The OASIS dataset can be accessed at [here](https://www.oasis-brains.org/#data). The datasets should be placed under the `data/` folder.
 
-## Installation
+## Requirements
 
 Ensure all the necessary packages listed in `requirements.txt` are installed.
 
