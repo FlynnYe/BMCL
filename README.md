@@ -2,6 +2,9 @@
 
 This repository contains the source code associated with our paper titled "Bidirectional Mapping with Contrastive Learning on Multimodal Neuroimaging Data," which has been accepted at MICCAI 2023.
 
+Paper link:
+[BMCL](https://link.springer.com/chapter/10.1007/978-3-031-43898-1_14)
+
 ## Datasets
 
 The HCP dataset can be accessed at [here](https://www.humanconnectome.org/study/hcp-young-adult/data-releases). The OASIS dataset can be accessed at [here](https://www.oasis-brains.org/#data). The datasets should be placed under the `data/` folder.
