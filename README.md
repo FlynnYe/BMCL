@@ -1,6 +1,6 @@
 # BMCL
 
-This repository contains the source code associated with our paper titled "Bidirectional Mapping with Contrastive Learning on Multimodal Neuroimaging Data," which has been accepted at MICCAI 2023.
+This repository contains the source code associated with our paper titled "Bidirectional Mapping with Contrastive Learning on Multimodal Neuroimaging Data" which has been accepted at MICCAI 2023.
 
 Paper link:
 [Bidirectional Mapping with Contrastive Learning on Multimodal Neuroimaging Data](https://link.springer.com/chapter/10.1007/978-3-031-43898-1_14)
